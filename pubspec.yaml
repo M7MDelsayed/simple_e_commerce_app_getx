@@ -1,0 +1,32 @@
+name: project
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.0-2.0.dev <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets:
+    - assets/img/1.jpg
+    - assets/img/10.jpg
+    - assets/img/12.jpg
+    - assets/img/3.jpg
+    - assets/img/5.jpg
+    - assets/img/7.jpg
+    - assets/img/8.jpg
+    - assets/img/9.jpg
+    - assets/img/flowers.jpg
+    - assets/img/me.JPG
+  uses-material-design: true
+
